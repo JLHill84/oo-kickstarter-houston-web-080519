@@ -16,5 +16,5 @@ class Backer
   
 end
 
-project = Project.new
+project = Project.new("new title")
 back_project(project)
