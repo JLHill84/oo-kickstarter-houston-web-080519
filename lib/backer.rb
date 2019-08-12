@@ -8,8 +8,12 @@ class Backer
   end
   
   def back_project(project)
-    puts Project.backers
+    # puts Project.backers
     @backed_projects << project
+  end
+  
+  def backed_projects
+    
   end
   
 
