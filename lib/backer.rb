@@ -9,12 +9,10 @@ class Backer
   
   def back_project(project)
     @backed_projects << project
+    Prject.backers << project
   end
   
-  # def backed_projects(arg)
-  #   puts arg
-    
-  # end
+
   
 
   
